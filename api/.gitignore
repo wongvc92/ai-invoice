@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Environment
+.env
+*.env
+
+# Virtual envs
+venv/
+env/
+.venv/
+
+# Docker
+*.log
+*.pid
+*.sock
+.envrc
+
+# IDEs
+.vscode/
+.idea/
+
+# Byte-compiled / temporary files
+*.bak
+*.swp
+*.tmp
