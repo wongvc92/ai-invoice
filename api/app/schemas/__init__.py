@@ -17,9 +17,13 @@ When adding a new schema:
 """
 
 from .user import UserBase, UserCreate, UserResponse
+from .invoice import InvoiceBase, InvoiceCreate, InvoiceResponse
 
 __all__ = [
     "UserBase",
     "UserCreate",
     "UserResponse",
+    "InvoiceBase",
+    "InvoiceCreate",
+    "InvoiceResponse",
 ]
